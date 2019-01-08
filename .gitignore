@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Pycharm
+.idea/
+
 # C extensions
 *.so
 
@@ -116,3 +119,9 @@ dmypy.json
 # vim undos
 *.un~
 
+#SQLite
+*.db-wal
+*.db-shm
+
+# Baiduyun
+*.baiduyun.uploading.cfg
