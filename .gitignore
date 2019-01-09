@@ -119,9 +119,17 @@ dmypy.json
 # vim undos
 *.un~
 
-#SQLite
+# Database
 *.db-wal
 *.db-shm
+*.db
 
 # Baiduyun
 *.baiduyun.uploading.cfg
+
+# Mask
+mask_*.jpg
+mask_*.png
+
+# Result
+results/
